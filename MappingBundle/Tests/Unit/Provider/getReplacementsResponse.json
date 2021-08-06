@@ -1,0 +1,423 @@
+{
+  "@context": "/api/contexts/Replacement",
+  "@id": "/api/replacements",
+  "@type": "hydra:Collection",
+  "hydra:member": [
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8ba",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8ba",
+      "tenant": 1,
+      "label": "none",
+      "type": "classification",
+      "channel": "1",
+      "data": {
+        "id": "4",
+        "name": null
+      },
+      "referenceTo": "1"
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8bb",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8bb",
+      "tenant": 1,
+      "label": "asin",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "asin",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8bc",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8bc",
+      "tenant": 1,
+      "label": "cost",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "cost",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8bd",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8bd",
+      "tenant": 1,
+      "label": "country_of_manufacture",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "country_of_manufacture",
+        "value": " "
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8be",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8be",
+      "tenant": 1,
+      "label": "created_at",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "created_at",
+        "value": "2018-11-29 10:42:53"
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8bf",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8bf",
+      "tenant": 1,
+      "label": "custom_design",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "custom_design",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8c0",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8c0",
+      "tenant": 1,
+      "label": "custom_design_from",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "custom_design_from",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8c1",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8c1",
+      "tenant": 1,
+      "label": "custom_design_to",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "custom_design_to",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8c2",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8c2",
+      "tenant": 1,
+      "label": "custom_layout_update",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "custom_layout_update",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8c3",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8c3",
+      "tenant": 1,
+      "label": "description",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "description",
+        "value": "third child product description"
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8c4",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8c4",
+      "tenant": 1,
+      "label": "ean",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "ean",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8c5",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8c5",
+      "tenant": 1,
+      "label": "gallery",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "gallery",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8c6",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8c6",
+      "tenant": 1,
+      "label": "group_price",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "group_price",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8c7",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8c7",
+      "tenant": 1,
+      "label": "has_options",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "has_options",
+        "value": "0"
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8c8",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8c8",
+      "tenant": 1,
+      "label": "height_inches",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "height_inches",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8c9",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8c9",
+      "tenant": 1,
+      "label": "image",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "image",
+        "value": "http://demostore.ecomitize.com/media/catalog/product"
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8ca",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8ca",
+      "tenant": 1,
+      "label": "image_label",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "image_label",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8cb",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8cb",
+      "tenant": 1,
+      "label": "isbn",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "isbn",
+        "value": null
+      },
+      "referenceTo": "8"
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8cc",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8cc",
+      "tenant": 1,
+      "label": "length_inches",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "length_inches",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8cd",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8cd",
+      "tenant": 1,
+      "label": "links_exist",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "links_exist",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8ce",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8ce",
+      "tenant": 1,
+      "label": "links_purchased_separately",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "links_purchased_separately",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8cf",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8cf",
+      "tenant": 1,
+      "label": "links_title",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "links_title",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8d0",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8d0",
+      "tenant": 1,
+      "label": "manufacturer",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "manufacturer",
+        "value": null
+      },
+      "referenceTo": "11"
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8d1",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8d1",
+      "tenant": 1,
+      "label": "media_gallery",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "media_gallery",
+        "value": null
+      },
+      "referenceTo": null
+    },
+    {
+      "@id": "/api/replacements/5bfffe5da937d45c8a06b8d2",
+      "@type": "/Replacement",
+      "id": "5bfffe5da937d45c8a06b8d2",
+      "tenant": 1,
+      "label": "meta_description",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": null,
+        "name": "meta_description",
+        "value": null
+      },
+      "referenceTo": null
+    }
+  ],
+  "hydra:totalItems": 75,
+  "hydra:view": {
+    "@id": "/api/replacements?channel=1&perPage=500&tenant=1",
+    "@type": "hydra:PartialCollectionView"
+  },
+  "hydra:search": {
+    "@type": "hydra:IriTemplate",
+    "hydra:template": "/api/replacements{?type,type[],channel,channel[],referenceTo[exists]}",
+    "hydra:variableRepresentation": "BasicRepresentation",
+    "hydra:mapping": [
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "type",
+        "property": "type",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "type[]",
+        "property": "type",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "channel",
+        "property": "channel",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "channel[]",
+        "property": "channel",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "referenceTo[exists]",
+        "property": "referenceTo",
+        "required": false
+      }
+    ]
+  }
+}

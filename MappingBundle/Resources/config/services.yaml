@@ -1,0 +1,45 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    BinaryStudioDemo\MappingBundle\:
+        resource: '../*'
+        exclude: '../{Tests,Exception,Traits,Factory,Event}'
+
+    BinaryStudioDemo\MappingBundle\Factory\SchemaFactoryInterface: '@BinaryStudioDemo\MappingBundle\Factory\SchemaFactory'
+    BinaryStudioDemo\MappingBundle\Factory\SchemaFactory:
+        arguments:
+            $redis: '@snc_redis.cache'
+
+    BinaryStudioDemo\MappingBundle\Converter\ConverterInterface: '@BinaryStudioDemo\MappingBundle\Converter\Converter'
+    BinaryStudioDemo\MappingBundle\Converter\Converter: ~
+
+    BinaryStudioDemo\MappingBundle\Provider\DataProviderInterface: '@BinaryStudioDemo\MappingBundle\Provider\MappingDataProvider'
+
+    BinaryStudioDemo\MappingBundle\Provider\MappingDataProvider:
+        arguments:
+            $context: '@enqueue.transport.default.context'
+
+
+    # MAPPER
+    BinaryStudioDemo\MappingBundle\Interfaces\MapperInterface: '@BinaryStudioDemo\MappingBundle\Mapper\ChainMapper'
+    BinaryStudioDemo\MappingBundle\Mapper\ChainMapper:
+        arguments: [!tagged BinaryStudioDemo.mapper]
+
+    BinaryStudioDemo\MappingBundle\Mapper\ProductImportMapper:
+        tags:
+            - { name: BinaryStudioDemo.mapper, priority: 10 }
+    BinaryStudioDemo\MappingBundle\Mapper\ProductExportMapper:
+        tags:
+            - { name: BinaryStudioDemo.mapper, priority: 10 }
+    BinaryStudioDemo\MappingBundle\Mapper\OrderImportMapper:
+        tags:
+            - { name: BinaryStudioDemo.mapper, priority: 10 }
+    BinaryStudioDemo\MappingBundle\Mapper\OrderExportMapper:
+        tags:
+            - { name: BinaryStudioDemo.mapper, priority: 10 }
+    BinaryStudioDemo\MappingBundle\Mapper\ProductOriginalNameMapper:
+        tags:
+            - { name: BinaryStudioDemo.mapper, priority: 10 }

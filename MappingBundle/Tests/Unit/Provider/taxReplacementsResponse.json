@@ -1,0 +1,295 @@
+{
+  "@context": "/api/contexts/Replacement",
+  "@id": "/api/replacements",
+  "@type": "hydra:Collection",
+  "hydra:member": [
+    {
+      "@id": "/api/replacements/5c65914270e3bc61ca699a00",
+      "@type": "/Replacement",
+      "id": "5c65914270e3bc61ca699a00",
+      "tenant": 1,
+      "label": "none",
+      "type": "tax",
+      "channel": "20",
+      "data": {
+        "id": "4",
+        "name": null
+      },
+      "referenceTo": null,
+      "oldRemovedId": null
+    },
+    {
+      "@id": "/api/replacements/5c669474a937d4014d0daa32",
+      "@type": "/Replacement",
+      "id": "5c669474a937d4014d0daa32",
+      "tenant": 1,
+      "label": "98101",
+      "type": "tax",
+      "channel": "20",
+      "data": {
+        "id": "98101",
+        "name": "98101",
+        "TAX_COD": "98101",
+        "DESCR": "98101",
+        "DESCR_UPR": "98101",
+        "LST_MAINT_DT": "2017-08-30T15:31:06.0000000",
+        "LST_MAINT_USR_ID": "Z",
+        "RS_UTC_DT": "2017-08-30T20:31:05.6770000",
+        "RS_STAT": 1
+      },
+      "referenceTo": "1",
+      "oldRemovedId": null
+    },
+    {
+      "@id": "/api/replacements/5c669474a937d4014d0daa33",
+      "@type": "/Replacement",
+      "id": "5c669474a937d4014d0daa33",
+      "tenant": 1,
+      "label": "98102",
+      "type": "tax",
+      "channel": "20",
+      "data": {
+        "id": "98102",
+        "name": "98102",
+        "TAX_COD": "98102",
+        "DESCR": "98102",
+        "DESCR_UPR": "98102",
+        "LST_MAINT_DT": "2017-08-30T15:31:39.0000000",
+        "LST_MAINT_USR_ID": "Z",
+        "RS_UTC_DT": "2017-08-30T20:31:38.9800000",
+        "RS_STAT": 1
+      },
+      "referenceTo": "2",
+      "oldRemovedId": null
+    },
+    {
+      "@id": "/api/replacements/5c669474a937d4014d0daa34",
+      "@type": "/Replacement",
+      "id": "5c669474a937d4014d0daa34",
+      "tenant": 1,
+      "label": "Exempt",
+      "type": "tax",
+      "channel": "20",
+      "data": {
+        "id": "EXEMPT",
+        "name": "Exempt",
+        "TAX_COD": "EXEMPT",
+        "DESCR": "Exempt",
+        "DESCR_UPR": "EXEMPT",
+        "LST_MAINT_DT": "2009-06-10T18:00:54.8030000",
+        "LST_MAINT_USR_ID": "TEMPLATEDB",
+        "RS_STAT": 0
+      },
+      "referenceTo": "3",
+      "oldRemovedId": null
+    },
+    {
+      "@id": "/api/replacements/5c669474a937d4014d0daa35",
+      "@type": "/Replacement",
+      "id": "5c669474a937d4014d0daa35",
+      "tenant": 1,
+      "label": "Local tax",
+      "type": "tax",
+      "channel": "20",
+      "data": {
+        "id": "LOCAL",
+        "name": "Local tax",
+        "TAX_COD": "LOCAL",
+        "DESCR": "Local tax",
+        "DESCR_UPR": "LOCAL TAX",
+        "LST_MAINT_DT": "2016-10-11T09:24:14.0000000",
+        "LST_MAINT_USR_ID": "513",
+        "RS_UTC_DT": "2016-10-11T14:24:14.4130000",
+        "RS_STAT": 1
+      },
+      "referenceTo": "4",
+      "oldRemovedId": null
+    },
+    {
+      "@id": "/api/replacements/5c669474a937d4014d0daa36",
+      "@type": "/Replacement",
+      "id": "5c669474a937d4014d0daa36",
+      "tenant": 1,
+      "label": "Oklahoma",
+      "type": "tax",
+      "channel": "20",
+      "data": {
+        "id": "OK",
+        "name": "Oklahoma",
+        "TAX_COD": "OK",
+        "DESCR": "Oklahoma",
+        "DESCR_UPR": "OKLAHOMA",
+        "LST_MAINT_DT": "2017-06-15T13:31:41.0000000",
+        "LST_MAINT_USR_ID": "Z",
+        "RS_UTC_DT": "2017-06-15T18:31:40.9130000",
+        "RS_STAT": 1
+      },
+      "referenceTo": "5",
+      "oldRemovedId": null
+    },
+    {
+      "@id": "/api/replacements/5c669474a937d4014d0daa37",
+      "@type": "/Replacement",
+      "id": "5c669474a937d4014d0daa37",
+      "tenant": 1,
+      "label": "Out of State",
+      "type": "tax",
+      "channel": "20",
+      "data": {
+        "id": "OS",
+        "name": "Out of State",
+        "TAX_COD": "OS",
+        "DESCR": "Out of State",
+        "DESCR_UPR": "OUT OF STATE",
+        "LST_MAINT_DT": "2017-06-18T08:58:50.0000000",
+        "LST_MAINT_USR_ID": "Z",
+        "RS_UTC_DT": "2017-06-18T13:59:42.0130000",
+        "RS_STAT": 1
+      },
+      "referenceTo": "6",
+      "oldRemovedId": null
+    },
+    {
+      "@id": "/api/replacements/5c669474a937d4014d0daa39",
+      "@type": "/Replacement",
+      "id": "5c669474a937d4014d0daa39",
+      "tenant": 1,
+      "label": "Base Tax Code for CPSHOP",
+      "type": "tax",
+      "channel": "20",
+      "data": {
+        "id": "WEB",
+        "name": "Base Tax Code for CPSHOP",
+        "TAX_COD": "WEB",
+        "DESCR": "Base Tax Code for CPSHOP",
+        "DESCR_UPR": "BASE TAX CODE FOR CPSHOP",
+        "LST_MAINT_DT": "2017-06-18T08:58:50.0000000",
+        "LST_MAINT_USR_ID": "Z",
+        "RS_UTC_DT": "2017-06-18T13:59:42.0270000",
+        "RS_STAT": 1
+      },
+      "referenceTo": null,
+      "oldRemovedId": null
+    },
+    {
+      "@id": "/api/replacements/5c669474a937d4014d0daa3a",
+      "@type": "/Replacement",
+      "id": "5c669474a937d4014d0daa3a",
+      "tenant": 1,
+      "label": "Alaska CPSHOP tax code",
+      "type": "tax",
+      "channel": "20",
+      "data": {
+        "id": "WEBAK",
+        "name": "Alaska CPSHOP tax code",
+        "TAX_COD": "WEBAK",
+        "DESCR": "Alaska CPSHOP tax code",
+        "DESCR_UPR": "ALASKA CPSHOP TAX CODE",
+        "LST_MAINT_DT": "2017-06-18T08:58:50.0000000",
+        "LST_MAINT_USR_ID": "Z",
+        "RS_UTC_DT": "2017-06-18T13:59:42.0370000",
+        "RS_STAT": 1
+      },
+      "referenceTo": null,
+      "oldRemovedId": null
+    },
+    {
+      "@id": "/api/replacements/5c669474a937d4014d0daa3b",
+      "@type": "/Replacement",
+      "id": "5c669474a937d4014d0daa3b",
+      "tenant": 1,
+      "label": "Alabama CPSHOP tax code",
+      "type": "tax",
+      "channel": "20",
+      "data": {
+        "id": "WEBAL",
+        "name": "Alabama CPSHOP tax code",
+        "TAX_COD": "WEBAL",
+        "DESCR": "Alabama CPSHOP tax code",
+        "DESCR_UPR": "ALABAMA CPSHOP TAX CODE",
+        "LST_MAINT_DT": "2017-06-18T08:58:50.0000000",
+        "LST_MAINT_USR_ID": "Z",
+        "RS_UTC_DT": "2017-06-18T13:59:42.0470000",
+        "RS_STAT": 1
+      },
+      "referenceTo": null,
+      "oldRemovedId": null
+    },
+    {
+      "@id": "/api/replacements/5c669474a937d4014d0daa3c",
+      "@type": "/Replacement",
+      "id": "5c669474a937d4014d0daa3c",
+      "tenant": 1,
+      "label": "APO CPSHOP tax code",
+      "type": "tax",
+      "channel": "20",
+      "data": {
+        "id": "WEBAPO",
+        "name": "APO CPSHOP tax code",
+        "TAX_COD": "WEBAPO",
+        "DESCR": "APO CPSHOP tax code",
+        "DESCR_UPR": "APO CPSHOP TAX CODE",
+        "LST_MAINT_DT": "2017-06-18T08:58:50.0000000",
+        "LST_MAINT_USR_ID": "Z",
+        "RS_UTC_DT": "2017-06-18T13:59:42.0570000",
+        "RS_STAT": 1
+      },
+      "referenceTo": null,
+      "oldRemovedId": null
+    }
+  ],
+  "hydra:totalItems": 67,
+  "hydra:view": {
+    "@id": "/api/replacements?tenant=1&type=tax",
+    "@type": "hydra:PartialCollectionView"
+  },
+  "hydra:search": {
+    "@type": "hydra:IriTemplate",
+    "hydra:template": "/api/replacements{?type,type[],channel,channel[],referenceTo,referenceTo[],referenceTo[exists]}",
+    "hydra:variableRepresentation": "BasicRepresentation",
+    "hydra:mapping": [
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "type",
+        "property": "type",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "type[]",
+        "property": "type",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "channel",
+        "property": "channel",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "channel[]",
+        "property": "channel",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "referenceTo",
+        "property": "referenceTo",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "referenceTo[]",
+        "property": "referenceTo",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "referenceTo[exists]",
+        "property": "referenceTo",
+        "required": false
+      }
+    ]
+  }
+}

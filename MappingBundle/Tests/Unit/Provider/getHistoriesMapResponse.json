@@ -1,0 +1,28 @@
+{
+  "map": [
+    {
+      "source_label": "NBIGC-child-L",
+      "data": [
+        {
+          "name": "foo"
+        }
+      ]
+    },
+    {
+      "source_label": "NBIGC-child-M",
+      "data": [
+        {
+          "name": "foo"
+        }
+      ]
+    },
+    {
+      "source_label": "NBIGC-child-XL",
+      "data": [
+        {
+          "name": "foo"
+        }
+      ]
+    }
+  ]
+}

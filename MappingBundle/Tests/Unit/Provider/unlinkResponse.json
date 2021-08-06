@@ -1,0 +1,63 @@
+{
+  "@context": "\/api\/contexts\/Replacement",
+  "@id": "\/api\/replacements",
+  "@type": "hydra:Collection",
+  "hydra:member": [
+    {
+      "@id": "\/api\/replacements\/5bfd7224ebf78eacc8832861",
+      "@type": "\/Replacement",
+      "id": "5bfd7224ebf78eacc8832861",
+      "tenant": 1,
+      "label": "Color",
+      "type": "attribute",
+      "channel": "1",
+      "data": {
+        "id": "1",
+        "name": "Color"
+      },
+      "referenceTo": null
+    }
+  ],
+  "hydra:totalItems": 1,
+  "hydra:view": {
+    "@id": "\/api\/replacements\/unlink?tenant=1",
+    "@type": "hydra:PartialCollectionView"
+  },
+  "hydra:search": {
+    "@type": "hydra:IriTemplate",
+    "hydra:template": "\/api\/replacements\/unlink{?type,type[],channel,channel[],referenceTo[exists]}",
+    "hydra:variableRepresentation": "BasicRepresentation",
+    "hydra:mapping": [
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "type",
+        "property": "type",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "type[]",
+        "property": "type",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "channel",
+        "property": "channel",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "channel[]",
+        "property": "channel",
+        "required": false
+      },
+      {
+        "@type": "IriTemplateMapping",
+        "variable": "referenceTo[exists]",
+        "property": "referenceTo",
+        "required": false
+      }
+    ]
+  }
+}
